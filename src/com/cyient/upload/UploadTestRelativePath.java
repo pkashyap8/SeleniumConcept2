@@ -13,7 +13,7 @@ public class UploadTestRelativePath
 	{
 		
 		
-		File file = new File("files/Profile.doc");
+		File file = new File("src/files/Profile.docx");
 		String profilePath = file.getAbsolutePath();
 		System.out.println(profilePath);
 		
